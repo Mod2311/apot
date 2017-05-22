@@ -1,0 +1,69 @@
+/** ----------------- HEADER PAGES --------------------**/
+
+body{
+	
+}
+
+.containerPageHeader {
+	vertical-align: middle;
+	position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:200px;
+    background:blue;
+}
+
+.pageIntro {
+	position: absolute;
+	width: 100%;
+	color: white;
+	text-align: center;
+	top: 100px;
+	display: table-cell;
+	margin: auto;
+}
+
+
+.containerPageHeader > .ribbon {
+	width: 0;
+	height: 350px;
+	position: absolute;
+	top: 0;
+    right: 0;
+	border: 50px solid #1abc9c ;
+	border-top: 0 solid;
+	border-bottom: 35px solid rgba(0,0,0,0);
+	color: rgba(0,0,0,1);
+	-o-text-overflow: clip;
+	text-overflow: clip;
+	-webkit-transform: rotateX(1.1459155902616465deg) rotateY(26.35605857601787deg) rotateZ(449.7718691776962deg)  translateX(4px) translateY(-261px) ;
+	transform: rotateX(1.1459155902616465deg) rotateY(26.35605857601787deg) rotateZ(449.7718691776962deg)  translateX(4px) translateY(-261px) ;
+	}
+
+.logo>img {
+	width: 15% !important;
+	position: absolute;
+	margin: 10px;
+	top: 0	;
+	left: 0;
+}
+
+.buttonAdher{
+	position: absolute;
+	float: right;
+	right: 0;
+	color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+}

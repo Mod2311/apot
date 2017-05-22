@@ -1,0 +1,146 @@
+html,body { 
+	height: 100%; 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+/*** HEADER ***/
+
+#imgBackground {
+	width: 100%;
+	background-image: url('../images/test.jpg');
+	display: table;
+	margin: 0;
+	max-width: none;
+	height: 100vh;
+}
+
+#imgHeader {
+	width: 100%;
+	background-image: url('../images/test.jpg');
+	display: table;
+	margin: 0;
+	max-width: none;
+	height: 30%;
+}
+
+.navbar-wrapper>.container {
+	padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto !important;
+}
+
+.navbar {
+	margin-bottom: 0;
+	bottom: 0;
+    position: absolute;
+    width: 100%;
+    border-radius: 0;
+}
+
+.navbar-inverse {
+	border: none;
+}
+
+ .navbar.sticky.is-sticky{
+    max-height: 50px;
+  }
+
+ .sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.textIntro {
+	position: absolute;
+	top: 35%;
+	left: 10%;
+	width: 20%;
+}
+
+.textIntro p, h1 {
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	position: relative;
+	top: 70px;
+	font-size: 2.5em;
+}
+
+.ribbon {
+	 width: 0;
+	 height: 100px;
+	 position: absolute;
+     top: 4%;
+     right: 14.5%;
+	 border: 50px solid #1abc9c ;
+	 border-top: 0 solid;
+	 border-bottom: 35px solid rgba(0,0,0,0);
+	 color: rgba(0,0,0,1);
+	 -o-text-overflow: clip;
+	 text-overflow: clip;
+	 -webkit-transform: rotateX(1.1459155902616465deg) rotateY(26.35605857601787deg) rotateZ(449.7718691776962deg)  translateX(4px) translateY(-261px) ;
+	 transform: rotateX(1.1459155902616465deg) rotateY(26.35605857601787deg) rotateZ(449.7718691776962deg)  translateX(4px) translateY(-261px) ;
+	}
+
+.logo>img {
+    width: 12% !important;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+}
+
+/*** CONTENT ***/
+.content {
+	width: 100%;
+	height: 60%;
+	background-color: white;
+}
+
+
+/*** FOOTER ***/
+
+#footer{
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+
+.footer1 {
+	background-color: black;
+    left: 0;
+	width: 100% !important;
+    height: 150px;
+}
+
+.footer1 > p {
+	color: white;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+.footer2 {
+	background-color: grey;
+    left: 0;
+    width: 100% !important;
+    height: 40px;
+    text-align: center;
+}
+
+.footer2 > p {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.footer2 > a {
+	text-decoration: none !important;
+	color: black;
+}

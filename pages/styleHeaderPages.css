@@ -1,0 +1,81 @@
+
+
+/** ----------------- HEADER PAGES --------------------**/
+
+.containerPageHeader {
+/*	vertical-align: middle;*/
+	/*position:relative;*/
+    /*top:0;
+    left:0;*/
+    width:100%;
+  /*  padding:0;*/
+    height:300px;
+    background:lightblue;
+}
+
+.pageIntro {
+	position: absolute;
+	width: 100%;
+	color: white;
+	text-align: center;
+	top: 100px;
+	display: table-cell;
+	margin: auto;
+}
+
+
+
+.logo>img {
+	width: 15% !important;
+	position: absolute;
+	margin: 10px;
+	top: 20px;
+	left: 20px;
+}
+
+.buttonAdher{
+	position: absolute;
+	/*float: right;*/
+	/*right: 0;*/
+	top: 0;
+	color: white;
+    /*padding: 15px 32px;*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+    /*display: inline-block;*/
+    font-size: 16px;
+}
+
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+/** ----------------- MENU --------------------**/
+
+#navbar{
+	right:10%;
+	position:absolute;
+}
+.navbar {
+    width: 100%;
+    border-radius: 0;
+}
+
+
+ .navbar.sticky.is-sticky{
+    max-height: 50px;
+  }
+
+ .sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
